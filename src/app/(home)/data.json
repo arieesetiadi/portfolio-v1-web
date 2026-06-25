@@ -1,0 +1,237 @@
+{
+    "personal": {
+        "name": "Arie Setiadi",
+        "position": "Fullstack Web Developer",
+        "email": "ariee.setiadi@gmail.com",
+        "linkedin": "arieesetiadi",
+        "whatsapp": "+6282146335727",
+        "github": "arieesetiadi",
+        "instagram": "arieesetiadi",
+        "codewars": null,
+        "about": "Fullstack developer with 3+ years building production web applications — from REST APIs in Laravel and NestJS to React frontends and PostgreSQL-backed systems. I've shipped ERP modules, government platforms, and client-facing portals for Indonesian companies, and I'm currently targeting remote roles at product-focused companies in Europe and the US.",
+        "resume": "/attachments/resume.pdf"
+    },
+    "skills": [
+        {
+            "title": "Frontend Development",
+            "icon": "/images/skill/skill-frontend.svg",
+            "description": "React · Vue.js · TypeScript · Tailwind"
+        },
+        {
+            "title": "Backend Development",
+            "icon": "/images/skill/skill-backend.svg",
+            "description": "Laravel · NestJS · Express · REST APIs"
+        }
+    ],
+    "experiences": [
+        {
+            "period": "2023 - Present",
+            "title": "Full-time Web Developer",
+            "place": "PT Eannovate Creative Technology",
+            "role": "Backend Developer",
+            "type": "work"
+        },
+        {
+            "period": "2020 - Present",
+            "title": "Part-time Freelance",
+            "place": "Work from Home",
+            "role": "Fullstack Web Developer",
+            "type": "work"
+        },
+        {
+            "period": "2018 - 2022",
+            "title": "University",
+            "place": "ITB STIKOM Bali",
+            "role": "Enterprise System Major",
+            "type": "educational"
+        },
+        {
+            "period": "2015 - 2018",
+            "title": "Vocational School",
+            "place": "SMK Wira Harapan",
+            "role": "Computer Engineering & Network Major",
+            "type": "educational"
+        }
+    ],
+    "projects": [
+        {
+            "category": "Website",
+            "title": "Kantanya Bali Tour (Travel Agency)",
+            "subtitle": "Web-based travel booking platform, owned by Kantanya Bali Tour",
+            "description": "Our web-based travel booking platform, based in Bali, makes trip planning effortless by offering curated travel packages, a gallery of stunning destinations, and an easy booking process. Users can explore favorite destinations, view essential trip details, and book seamlessly with just a few clicks. Whether seeking cultural experiences, adventure tours, or relaxing getaways, our platform provides everything needed for a memorable Bali journey.",
+            "techStacks": [
+                "Laravel",
+                "FilamentPHP",
+                "Bootstrap",
+                "MySQL"
+            ],
+            "website": "http://kantanyabalitour.com",
+            "github": null,
+            "demo": null,
+            "thumbnail": "/images/projects/kantanya-1.webp",
+            "gallery": [
+                "/images/projects/kantanya-1.webp",
+                "/images/projects/kantanya-2.webp",
+                "/images/projects/kantanya-3.webp",
+                "/images/projects/kantanya-4.webp",
+                "/images/projects/kantanya-5.webp",
+                "/images/projects/kantanya-6.webp"
+            ]
+        },
+        {
+            "category": "Web Application",
+            "title": "Daikin E-Recruitment (Job Portal)",
+            "subtitle": "Web-based job portal owned by PT Daikin Airconditioning Indonesia, officially powered by PT Eannovate Creative Technology",
+            "description": "Daikin E-Recruitment is a user-friendly, web-based platform designed for individuals seeking career opportunities at PT Daikin Airconditioning Indonesia. The app allows users to browse job openings, apply easily, and track their application progress. With secure OTP verification, it ensures a safe experience, while notifications via web alerts and email keep applicants updated on their job application status.",
+            "techStacks": [
+                "Laravel",
+                "Bootstrap",
+                "MSSQL"
+            ],
+            "website": null,
+            "github": null,
+            "demo": null,
+            "thumbnail": "/images/projects/daikin-jobportal-1.webp",
+            "gallery": [
+                "/images/projects/daikin-jobportal-1.webp",
+                "/images/projects/daikin-jobportal-2.webp",
+                "/images/projects/daikin-jobportal-3.webp",
+                "/images/projects/daikin-jobportal-4.webp",
+                "/images/projects/daikin-jobportal-5.webp",
+                "/images/projects/daikin-jobportal-6.webp"
+            ]
+        },
+        {
+            "category": "Website",
+            "title": "Aesthetic Wedding Invitation",
+            "subtitle": "Aesthetic wedding invitation owned by Billy Gani, CEO of PT. Eannovate Creative Technology.",
+            "description": "Explore a beautiful wedding invitation website made to impress your guests with its simple and elegant design. The website is easy to use and helps share the joy of your special day. It includes an RSVP form where guests can confirm their attendance quickly and easily. Whether they use a phone, tablet, or computer, the website works perfectly and creates a warm and inviting experience for everyone. It's the perfect way to make your wedding unforgettable from the very beginning.",
+            "techStacks": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Laravel",
+                "Bootstrap",
+                "MySQL"
+            ],
+            "website": null,
+            "github": "https://github.com/arieesetiadi/wedding-invitation-web.git",
+            "demo": "https://wedding-1.ariee.id/?guest=Sari",
+            "thumbnail": "/images/projects/wedding-billy-1.webp",
+            "gallery": [
+                "/images/projects/wedding-billy-1.webp",
+                "/images/projects/wedding-billy-2.webp",
+                "/images/projects/wedding-billy-3.webp",
+                "/images/projects/wedding-billy-4.webp"
+            ]
+        },
+        {
+            "category": "Website",
+            "title": "Modern Wedding Invitation",
+            "subtitle": "The modern, elegant, and responsive wedding invitation website.",
+            "description": "Experience a charming wedding invitation website that combines beauty and simplicity. Designed to celebrate your special day, it features a modern look and easy navigation. Guests can quickly confirm their attendance using the built-in RSVP form, making it convenient for everyone. The website works smoothly on phones, tablets, and computers, ensuring an enjoyable experience for all. It's the perfect way to share the excitement and make your wedding planning stress-free.",
+            "techStacks": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Laravel",
+                "Bootstrap",
+                "MySQL"
+            ],
+            "website": null,
+            "github": "https://github.com/arieesetiadi/wedding-invitation-web-2.git",
+            "demo": "https://wedding-2.ariee.id/?guest=Vina",
+            "thumbnail": "/images/projects/wedding-vicky-karina-1.webp",
+            "gallery": [
+                "/images/projects/wedding-vicky-karina-1.webp",
+                "/images/projects/wedding-vicky-karina-2.webp",
+                "/images/projects/wedding-vicky-karina-3.webp",
+                "/images/projects/wedding-vicky-karina-4.webp",
+                "/images/projects/wedding-vicky-karina-5.webp"
+            ]
+        },
+        {
+            "category": "Web Application",
+            "title": "Damamaya Cyber Monitor",
+            "subtitle": "Web-based application developed for internal use in the Denpasar Communication, Informatics, and Statistics Office.",
+            "description": "Damamaya is a web-based application developed for internal use in the Denpasar Communication, Informatics, and Statistics Office. The purpose of this application is to help internal agencies, among others to monitor the Denpasar City resident's complaints, tracking local and national issues, and monitoring the Denpasar City subdomain security.",
+            "techStacks": [
+                "Laravel",
+                "Bootstrap",
+                "MySQL"
+            ],
+            "website": null,
+            "github": "https://github.com/arieesetiadi/damamaya-app",
+            "demo": "https://damamaya.ariee.id",
+            "thumbnail": "/images/projects/damamaya-1.webp",
+            "gallery": [
+                "/images/projects/damamaya-1.webp",
+                "/images/projects/damamaya-2.webp"
+            ]
+        },
+        {
+            "category": "Web Application",
+            "title": "Room Scheduling App",
+            "subtitle": "Meeting room scheduling application that can organize the entire lending process includes creating, approval, rejection, and schedule validation.",
+            "description": "Dinas Komunikasi, Informatika, dan Statistik Kota Denpasar is one of the agencies government in Denpasar city engaged in technology, information and communication. During this time, the meeting room scheduling process are still using separate documents for each officers so that the documents are not centralized. This probably caused a conflict schedule because the un-centralized documents. So in this research, i built a meeting room scheduling application that can organizing the entire lending process includes create a schedule, schedule approval and rejection, and schedule validation.",
+            "techStacks": [
+                "Laravel",
+                "Bootstrap"
+            ],
+            "website": null,
+            "github": "https://github.com/arieesetiadi/demo-company-profile",
+            "demo": "https://room-scheduler.ariee.id",
+            "thumbnail": "/images/projects/kominfo-scheduler-1.webp",
+            "gallery": [
+                "/images/projects/kominfo-scheduler-1.webp",
+                "/images/projects/kominfo-scheduler-2.webp"
+            ]
+        },
+        {
+            "category": "Website",
+            "title": "Demo Company Profile",
+            "subtitle": "Company profile website with Admin Panel to manage website contents",
+            "description": "This project is a DEMO version. The website design can be customized to fit your needs, such as adjusting content layout, changing the theme, and more. There are two examples to explore: the Website, which is the page visitors will see (current view), and the Admin Panel (PLUS), where you can easily manage website content yourself—give it a try! Any changes made in the Admin Panel will update the Website in real-time. Don't worry about experimenting—data in the Admin Panel resets automatically every 2 hours, so nothing will be permanently affected.",
+            "techStacks": [
+                "Laravel",
+                "FilamentPHP",
+                "Bootstrap",
+                "MySQL"
+            ],
+            "website": "https://demo-company.ariee.id/",
+            "github": "https://github.com/arieesetiadi/demo-company-profile",
+            "demo": null,
+            "adminPanel": "https://demo-company.ariee.id/admin",
+            "thumbnail": "/images/projects/demo-compro-1.webp",
+            "gallery": [
+                "/images/projects/demo-compro-1.webp",
+                "/images/projects/demo-compro-2.webp",
+                "/images/projects/demo-compro-3.webp",
+                "/images/projects/demo-compro-4.webp",
+                "/images/projects/demo-compro-5.webp",
+                "/images/projects/demo-compro-6.webp"
+            ]
+        },
+        {
+            "category": "Website",
+            "title": "Virtual Tour Website",
+            "subtitle": "Web-based Virtual Tour Application 360 Degree as an introduction to Puri Agung Kerambitan.",
+            "description": "Puri Agung Kerambitan has not yet been visited by many tourists and still wants to survive in line with the development of cultural tourism and continue to provide benefits for society. Along the times is getting faster, virtual tour is one of the digital technology that delivers experience of \"touring\" just by looking at the device screen. Objective of this research is designing and build a Virtual Tour 360 Application Degree as an introduction to Puri Agung Kerambitan.",
+            "techStacks": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Bootstrap",
+                "3DVista"
+            ],
+            "website": null,
+            "github": "https://github.com/arieesetiadi/vtour-180030179",
+            "demo": "https://vtour-1.ariee.id",
+            "thumbnail": "/images/projects/vtour-kerambitan-1.webp",
+            "gallery": [
+                "/images/projects/vtour-kerambitan-1.webp",
+                "/images/projects/vtour-kerambitan-2.webp"
+            ]
+        }
+    ]
+}
