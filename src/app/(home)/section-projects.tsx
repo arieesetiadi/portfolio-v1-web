@@ -49,7 +49,7 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
               <Modal
                 isOpen={selectedModal == i}
                 onClose={() => setSelectedModal(null)}>
-                <h2 className='my-0'>{project.title}</h2>
+                <h2 className="my-0">{project.title}</h2>
 
                 <KeenSlider>
                   <>
@@ -66,8 +66,11 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
                 </KeenSlider>
 
                 <div>
-                  <p>{project.description}</p>
-                  <ul>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: project.description,
+                    }}></div>
+                  <ul className="mt-4">
                     <li>
                       <strong>Tech Stacks</strong>:{" "}
                       {project.techStacks.join(", ")}

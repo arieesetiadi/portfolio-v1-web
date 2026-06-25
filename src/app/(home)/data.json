@@ -8,7 +8,7 @@
         "github": "arieesetiadi",
         "instagram": "arieesetiadi",
         "codewars": null,
-        "about": "Fullstack developer with 3+ years building production web applications — from REST APIs in Laravel and NestJS to React frontends and PostgreSQL-backed systems. I've shipped ERP modules, government platforms, and client-facing portals for Indonesian companies, and I'm currently targeting remote roles at product-focused companies in Europe and the US.",
+        "about": "Fullstack developer from Bali, Indonesia. I work across the stack — Laravel, NestJS on the backend, React and Vue on the frontend, PostgreSQL and Redis underneath. 3+ years shipping real products for companies and government clients. Looking for remote opportunities with product-focused teams.",
         "resume": "/attachments/resume.pdf",
         "profile": "/images/profiles/personal.png"
     },
@@ -29,14 +29,14 @@
             "period": "2023 - Present",
             "title": "Full-time Web Developer",
             "place": "PT Eannovate Creative Technology",
-            "role": "Backend Developer",
+            "role": "Fullstack Developer",
             "type": "work"
         },
         {
             "period": "2020 - Present",
             "title": "Part-time Freelance",
-            "place": "Work from Home",
-            "role": "Fullstack Web Developer",
+            "place": "Self-employed · Remote",
+            "role": "Fullstack Developer",
             "type": "work"
         },
         {
@@ -57,9 +57,9 @@
     "projects": [
         {
             "category": "Website",
-            "title": "Kantanya Bali Tour (Travel Agency)",
-            "subtitle": "Web-based travel booking platform, owned by Kantanya Bali Tour",
-            "description": "Our web-based travel booking platform, based in Bali, makes trip planning effortless by offering curated travel packages, a gallery of stunning destinations, and an easy booking process. Users can explore favorite destinations, view essential trip details, and book seamlessly with just a few clicks. Whether seeking cultural experiences, adventure tours, or relaxing getaways, our platform provides everything needed for a memorable Bali journey.",
+            "title": "Kantanya Bali Tour",
+            "subtitle": "Travel booking platform for a Bali-based tour agency",
+            "description": "A full-featured travel booking website for Kantanya Bali Tour. Visitors can browse curated tour packages, explore destination galleries, and complete bookings in a few steps. Built with an admin panel using FilamentPHP for the client to manage packages and content independently without technical knowledge.",
             "techStacks": [
                 "Laravel",
                 "FilamentPHP",
@@ -82,8 +82,8 @@
         {
             "category": "Web Application",
             "title": "Daikin E-Recruitment (Job Portal)",
-            "subtitle": "Web-based job portal owned by PT Daikin Airconditioning Indonesia, officially powered by PT Eannovate Creative Technology",
-            "description": "Daikin E-Recruitment is a user-friendly, web-based platform designed for individuals seeking career opportunities at PT Daikin Airconditioning Indonesia. The app allows users to browse job openings, apply easily, and track their application progress. With secure OTP verification, it ensures a safe experience, while notifications via web alerts and email keep applicants updated on their job application status.",
+            "subtitle": "Applicant-facing job portal for PT Daikin Airconditioning Indonesia",
+            "description": "A web-based recruitment portal for PT Daikin Airconditioning Indonesia, built under PT Eannovate Creative Technology. The platform allows applicants to browse open positions, submit applications, and track application status in real time. Includes OTP-based identity verification and email notifications for status updates. <br><br>Note: this is a company project — I was solely responsible for the applicant-facing web portal. The CMS and backend administration were handled by other team members.",
             "techStacks": [
                 "Laravel",
                 "Bootstrap",
@@ -105,12 +105,9 @@
         {
             "category": "Website",
             "title": "Aesthetic Wedding Invitation",
-            "subtitle": "Aesthetic wedding invitation owned by Billy Gani, CEO of PT. Eannovate Creative Technology.",
-            "description": "Explore a beautiful wedding invitation website made to impress your guests with its simple and elegant design. The website is easy to use and helps share the joy of your special day. It includes an RSVP form where guests can confirm their attendance quickly and easily. Whether they use a phone, tablet, or computer, the website works perfectly and creates a warm and inviting experience for everyone. It's the perfect way to make your wedding unforgettable from the very beginning.",
+            "subtitle": "Elegant digital wedding invitation with RSVP functionality",
+            "description": "A personalized digital wedding invitation website with a clean, aesthetic design. Guests receive a unique URL with their name pre-filled and can confirm attendance via a built-in RSVP form. Fully responsive across mobile, tablet, and desktop. Built with a Laravel backend to handle guest management and RSVP data.",
             "techStacks": [
-                "HTML",
-                "CSS",
-                "JS",
                 "Laravel",
                 "Bootstrap",
                 "MySQL"
@@ -129,12 +126,9 @@
         {
             "category": "Website",
             "title": "Modern Wedding Invitation",
-            "subtitle": "The modern, elegant, and responsive wedding invitation website.",
-            "description": "Experience a charming wedding invitation website that combines beauty and simplicity. Designed to celebrate your special day, it features a modern look and easy navigation. Guests can quickly confirm their attendance using the built-in RSVP form, making it convenient for everyone. The website works smoothly on phones, tablets, and computers, ensuring an enjoyable experience for all. It's the perfect way to share the excitement and make your wedding planning stress-free.",
+            "subtitle": "Modern, responsive digital wedding invitation with RSVP",
+            "description": "A second iteration of the digital wedding invitation product with a more modern visual direction. Guests access a personalized link and RSVP directly from the page. Designed to work seamlessly on all screen sizes. Same Laravel-backed architecture as the first version, refined based on client feedback.",
             "techStacks": [
-                "HTML",
-                "CSS",
-                "JS",
                 "Laravel",
                 "Bootstrap",
                 "MySQL"
@@ -154,8 +148,8 @@
         {
             "category": "Web Application",
             "title": "Damamaya Cyber Monitor",
-            "subtitle": "Web-based application developed for internal use in the Denpasar Communication, Informatics, and Statistics Office.",
-            "description": "Damamaya is a web-based application developed for internal use in the Denpasar Communication, Informatics, and Statistics Office. The purpose of this application is to help internal agencies, among others to monitor the Denpasar City resident's complaints, tracking local and national issues, and monitoring the Denpasar City subdomain security.",
+            "subtitle": "Internal monitoring dashboard for Denpasar city government",
+            "description": "An internal web application built for the Denpasar Communication, Informatics, and Statistics Office. The platform centralizes monitoring of citizen complaints, tracks local and national issues relevant to the city, and flags security vulnerabilities across Denpasar's government subdomains — replacing a fragmented manual process.",
             "techStacks": [
                 "Laravel",
                 "Bootstrap",
@@ -173,8 +167,8 @@
         {
             "category": "Web Application",
             "title": "Room Scheduling App",
-            "subtitle": "Meeting room scheduling application that can organize the entire lending process includes creating, approval, rejection, and schedule validation.",
-            "description": "Dinas Komunikasi, Informatika, dan Statistik Kota Denpasar is one of the agencies government in Denpasar city engaged in technology, information and communication. During this time, the meeting room scheduling process are still using separate documents for each officers so that the documents are not centralized. This probably caused a conflict schedule because the un-centralized documents. So in this research, i built a meeting room scheduling application that can organizing the entire lending process includes create a schedule, schedule approval and rejection, and schedule validation.",
+            "subtitle": "Meeting room booking system with approval workflow for a government office",
+            "description": "A meeting room scheduling system built for the Denpasar Communication, Informatics, and Statistics Office to replace a fragmented document-based process. Officers can submit booking requests, and administrators can approve, reject, or flag schedule conflicts — all from a centralized interface. Eliminates double-booking caused by uncoordinated spreadsheets.",
             "techStacks": [
                 "Laravel",
                 "Bootstrap"
@@ -191,8 +185,8 @@
         {
             "category": "Website",
             "title": "Demo Company Profile",
-            "subtitle": "Company profile website with Admin Panel to manage website contents",
-            "description": "This project is a DEMO version. The website design can be customized to fit your needs, such as adjusting content layout, changing the theme, and more. There are two examples to explore: the Website, which is the page visitors will see (current view), and the Admin Panel (PLUS), where you can easily manage website content yourself—give it a try! Any changes made in the Admin Panel will update the Website in real-time. Don't worry about experimenting—data in the Admin Panel resets automatically every 2 hours, so nothing will be permanently affected.",
+            "subtitle": "Customizable company profile website with self-managed admin panel",
+            "description": "A demo-ready company profile website with a fully integrated admin panel built on FilamentPHP. Content changes made in the admin panel reflect on the public-facing site in real time — no developer needed for updates. Built as a reusable template for small business clients. The demo resets every 2 hours so anyone can freely test the admin panel without permanent side effects.",
             "techStacks": [
                 "Laravel",
                 "FilamentPHP",
@@ -216,8 +210,8 @@
         {
             "category": "Website",
             "title": "Virtual Tour Website",
-            "subtitle": "Web-based Virtual Tour Application 360 Degree as an introduction to Puri Agung Kerambitan.",
-            "description": "Puri Agung Kerambitan has not yet been visited by many tourists and still wants to survive in line with the development of cultural tourism and continue to provide benefits for society. Along the times is getting faster, virtual tour is one of the digital technology that delivers experience of \"touring\" just by looking at the device screen. Objective of this research is designing and build a Virtual Tour 360 Application Degree as an introduction to Puri Agung Kerambitan.",
+            "subtitle": "360° virtual tour web app for a historic Balinese palace",
+            "description": "A 360-degree virtual tour application built to introduce Puri Agung Kerambitan, a historic Balinese palace with limited tourist reach. Users can explore the palace grounds interactively from any device without being physically present. Built using 3DVista for the immersive tour engine, wrapped in a lightweight web frontend.",
             "techStacks": [
                 "HTML",
                 "CSS",
