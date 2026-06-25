@@ -9,7 +9,8 @@
         "instagram": "arieesetiadi",
         "codewars": null,
         "about": "Fullstack developer with 3+ years building production web applications — from REST APIs in Laravel and NestJS to React frontends and PostgreSQL-backed systems. I've shipped ERP modules, government platforms, and client-facing portals for Indonesian companies, and I'm currently targeting remote roles at product-focused companies in Europe and the US.",
-        "resume": "/attachments/resume.pdf"
+        "resume": "/attachments/resume.pdf",
+        "profile": "/images/profiles/personal.png"
     },
     "skills": [
         {

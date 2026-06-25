@@ -1,11 +1,27 @@
-import { Personal } from '@/lib/types';
+import { Personal } from "@/lib/types";
+import Image from "next/image";
 
 export default function SectionHero({ personal }: { personal: Personal }) {
   return (
     <section className="home d-flex light align-items-center" id="home">
       <div className="container">
         <div className="intro">
-          <h1 className="mb-2 mt-0">{personal.name}</h1>
+          {personal.profile && (
+            <div className="w-100 d-flex justify-content-center">
+              <div className="img-profile">
+                <Image
+                  src={personal.profile}
+                  alt="Profile Image"
+                  width={150}
+                  height={150}
+                />
+              </div>
+            </div>
+          )}
+
+          <h1 className={`mb-2 mt-0 ${personal.profile ? "mt-4" : ""}`}>
+            {personal.name}
+          </h1>
 
           <span>
             <span className="text-rotating">{personal.position}</span>

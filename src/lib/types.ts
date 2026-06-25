@@ -16,6 +16,7 @@ export type Personal = {
   codewars: string;
   about: string;
   resume?: string;
+  profile?: string;
 };
 
 export type Skill = {
