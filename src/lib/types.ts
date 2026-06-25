@@ -22,7 +22,8 @@ export type Personal = {
 export type Skill = {
   title: string;
   icon: string;
-  description: string;
+  items: string[];
+  type?: string;
 };
 
 export type Experience = {

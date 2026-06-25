@@ -14,14 +14,62 @@
     },
     "skills": [
         {
-            "title": "Frontend Development",
+            "title": "Frontend",
             "icon": "/images/skill/skill-frontend.svg",
-            "description": "React · Vue.js · TypeScript · Tailwind"
+            "items": [
+                "React",
+                "Vue.js",
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS"
+            ],
+            "type": "core"
         },
         {
-            "title": "Backend Development",
+            "title": "Backend",
             "icon": "/images/skill/skill-backend.svg",
-            "description": "Laravel · NestJS · Express · REST APIs"
+            "items": [
+                "Laravel",
+                "NestJS",
+                "Express",
+                "REST API",
+                "PHP",
+                "Node.js"
+            ],
+            "type": "core"
+        },
+        {
+            "title": "Database",
+            "icon": "/images/icons/code.svg",
+            "items": [
+                "PostgreSQL",
+                "MySQL",
+                "Redis",
+                "Prisma"
+            ],
+            "type": "core"
+        },
+        {
+            "title": "Tooling & Infra",
+            "icon": "/images/icons/code.svg",
+            "items": [
+                "Docker",
+                "Git",
+                "Linux",
+                "VPS",
+                "Vercel"
+            ],
+            "type": "core"
+        },
+        {
+            "title": "Soft skills / languages",
+            "icon": "/images/icons/code.svg",
+            "items": [
+                "English (professional)",
+                "Indonesian (native)",
+                "Remote collaboration"
+            ],
+            "type": "soft"
         }
     ],
     "experiences": [
