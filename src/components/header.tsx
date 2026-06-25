@@ -22,6 +22,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a href="#skills" className="nav-link">
+              <i className="text-dark"></i>Skills
+            </a>
+          </li>
+          <li>
             <a href="#experiences" className="nav-link">
               <i className="text-dark"></i>Experiences
             </a>
