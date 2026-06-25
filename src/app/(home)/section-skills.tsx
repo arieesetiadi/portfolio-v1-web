@@ -5,6 +5,7 @@ export default function SectionSkills({ skills }: { skills: Skill[] }) {
   const softSkills = skills.find((s) => s.type === "soft");
 
   return (
+    // TODO: Adjust icons
     <section id="skills">
       <div className="container">
         <h2 className="section-title">Skills.</h2>

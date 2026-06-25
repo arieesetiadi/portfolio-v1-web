@@ -1,6 +1,19 @@
+"use client";
+
 import { Personal } from "@/lib/types";
 
 export default function SectionContact({ personal }: { personal: Personal }) {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
+    console.log("Form submitted:", data);
+  };
+
   return (
     <section id="contact">
       <div className="container">
@@ -142,6 +155,50 @@ export default function SectionContact({ personal }: { personal: Personal }) {
                 )}
               </tbody>
             </table>
+          </div>
+
+          <div className="col-sm-12 col-md-8">
+            <div className="contact-form padding-30 shadow-dark bg-white rounded">
+                {/* TODO
+                    - Handle form submission
+                    - Store to db (setup prisma first)
+                    - Send mail to myself
+                    - Handle loading
+                */}
+              <form onSubmit={handleSubmit}>
+                <div className="row">
+                  <div className="col-md-6 mb-3">
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control rounded"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div className="col-md-6 mb-3">
+                    <input
+                      type="email"
+                      name="email"
+                      className="form-control rounded"
+                      placeholder="Email Address"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="mb-3">
+                  <textarea
+                    name="message"
+                    className="form-control rounded"
+                    rows={5}
+                    placeholder="Your Message"
+                    required></textarea>
+                </div>
+                <button type="submit" className="btn btn-default">
+                  Send
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
