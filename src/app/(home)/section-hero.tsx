@@ -14,6 +14,7 @@ export default function SectionHero({ personal }: { personal: Personal }) {
                   alt="Profile Image"
                   width={150}
                   height={150}
+                  loading="eager"
                 />
               </div>
             </div>
