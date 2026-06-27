@@ -1,4 +1,7 @@
+"use client";
+
 import { Skill } from "@/lib/types";
+import { AnimateOnScroll } from "@/components/animate-on-scroll";
 
 export default function SectionSkills({ skills }: { skills: Skill[] }) {
   const coreSkills = skills.filter((s) => s.type === "core");
@@ -8,7 +11,9 @@ export default function SectionSkills({ skills }: { skills: Skill[] }) {
     // TODO: Adjust icons
     <section id="skills">
       <div className="container">
-        <h2 className="section-title">Skills.</h2>
+        <AnimateOnScroll>
+          <h2 className="section-title">Skills.</h2>
+        </AnimateOnScroll>
 
         <div
           className="spacer"
@@ -17,7 +22,7 @@ export default function SectionSkills({ skills }: { skills: Skill[] }) {
 
         <div className="row">
           {coreSkills.map((skill, i) => (
-            <div key={i} className="col-md-6 mb-4">
+            <AnimateOnScroll key={i} delay={i * 0.1} className="col-md-6 mb-4">
               <div className="bg-white shadow-dark padding-30 rounded h-100">
                 <div className="d-flex align-items-center mb-3 gap-2">
                   {skill.icon && (
@@ -38,11 +43,11 @@ export default function SectionSkills({ skills }: { skills: Skill[] }) {
                   {skill.items.join(" · ")}
                 </p>
               </div>
-            </div>
+            </AnimateOnScroll>
           ))}
 
           {softSkills && (
-            <div className="col-12">
+            <AnimateOnScroll delay={coreSkills.length * 0.1} className="col-12">
               <div
                 className="bg-white shadow-dark padding-30 rounded border-primary"
                 style={{ borderLeft: "4px solid #007bff" }}>
@@ -61,7 +66,7 @@ export default function SectionSkills({ skills }: { skills: Skill[] }) {
                 </div>
                 <p className="mb-0">{softSkills.items.join(" · ")}</p>
               </div>
-            </div>
+            </AnimateOnScroll>
           )}
         </div>
       </div>

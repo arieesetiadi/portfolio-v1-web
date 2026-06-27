@@ -1,11 +1,16 @@
+"use client";
+
 import { Personal } from "@/lib/types";
 import { ContactForm } from "@/components/contact-form";
+import { AnimateOnScroll } from "@/components/animate-on-scroll";
 
 export default function SectionContact({ personal }: { personal: Personal }) {
   return (
     <section id="contact">
       <div className="container">
-        <h2 className="section-title">Contact.</h2>
+        <AnimateOnScroll>
+          <h2 className="section-title">Contact.</h2>
+        </AnimateOnScroll>
 
         <div
           className="spacer"
@@ -13,7 +18,7 @@ export default function SectionContact({ personal }: { personal: Personal }) {
           style={{ height: "60px" }}></div>
 
         <div className="row">
-          <div className="col-sm-12 col-md-4">
+          <AnimateOnScroll className="col-sm-12 col-md-4">
             <table className="table-borderless table">
               <tbody>
                 {personal.email && (
@@ -143,11 +148,11 @@ export default function SectionContact({ personal }: { personal: Personal }) {
                 )}
               </tbody>
             </table>
-          </div>
+          </AnimateOnScroll>
 
-          <div className="col-sm-12 col-md-8">
+          <AnimateOnScroll delay={0.15} className="col-sm-12 col-md-8">
             <ContactForm />
-          </div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>

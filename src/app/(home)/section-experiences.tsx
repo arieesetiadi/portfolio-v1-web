@@ -1,4 +1,7 @@
+"use client";
+
 import { Experience } from "@/lib/types";
+import { AnimateOnScroll } from "@/components/animate-on-scroll";
 
 export default function SectionExperiences({
   experiences,
@@ -16,7 +19,9 @@ export default function SectionExperiences({
   return (
     <section id="experiences">
       <div className="container">
-        <h2 className="section-title">Experiences.</h2>
+        <AnimateOnScroll>
+          <h2 className="section-title">Experiences.</h2>
+        </AnimateOnScroll>
 
         <div
           className="spacer"
@@ -24,7 +29,7 @@ export default function SectionExperiences({
           style={{ height: "60px" }}></div>
 
         <div className="row">
-          <div className="col-md-6 bg-white">
+          <AnimateOnScroll className="col-md-6 bg-white">
             <div
               className="spacer d-md-none d-lg-none"
               data-height="30"
@@ -55,8 +60,8 @@ export default function SectionExperiences({
 
               <span className="line"></span>
             </div>
-          </div>
-          <div className="col-md-6 bg-white">
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={0.15} className="col-md-6 bg-white">
             <div
               className="spacer d-md-none d-lg-none"
               data-height="30"
@@ -87,7 +92,7 @@ export default function SectionExperiences({
 
               <span className="line"></span>
             </div>
-          </div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>

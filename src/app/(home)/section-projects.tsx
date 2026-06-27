@@ -2,6 +2,7 @@
 
 import KeenSlider from "@/components/keen-slider";
 import Modal from "@/components/modal";
+import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Project } from "@/lib/types";
 import { useState } from "react";
 
@@ -11,7 +12,9 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
   return (
     <section id="projects">
       <div className="container">
-        <h2 className="section-title">Recent Projects.</h2>
+        <AnimateOnScroll>
+          <h2 className="section-title">Recent Projects.</h2>
+        </AnimateOnScroll>
 
         <div
           className="spacer"
@@ -20,7 +23,10 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
 
         <div className="row portfolio-wrapper">
           {projects.map((project, i) => (
-            <div key={i} className="col-lg-6 col-md-6 col-sm-6 grid-item mb-5">
+            <AnimateOnScroll
+              key={i}
+              delay={i * 0.1}
+              className="col-lg-6 col-md-6 col-sm-6 grid-item mb-5">
               <div
                 onClick={() => setSelectedModal(i)}
                 role="button"
@@ -98,25 +104,27 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
                   </ul>
                 </div>
               </Modal>
-            </div>
+            </AnimateOnScroll>
           ))}
         </div>
 
-        <div className="d-flex justify-content-center">
-          <a
-            className="btn btn-default w-xs-100 d-inline-flex justify-content-center align-items-center mt-3 gap-2"
-            href="https://github.com/arieesetiadi"
-            target="_blank">
-            <img
-              width="18"
-              height="18"
-              src="/images/icons/github-original-white.svg"
-              title="Github"
-              alt="Github icon"
-            />
-            Explore more on Github
-          </a>
-        </div>
+        <AnimateOnScroll>
+          <div className="d-flex justify-content-center">
+            <a
+              className="btn btn-default w-xs-100 d-inline-flex justify-content-center align-items-center mt-3 gap-2"
+              href="https://github.com/arieesetiadi"
+              target="_blank">
+              <img
+                width="18"
+                height="18"
+                src="/images/icons/github-original-white.svg"
+                title="Github"
+                alt="Github icon"
+              />
+              Explore more on Github
+            </a>
+          </div>
+        </AnimateOnScroll>
       </div>
     </section>
   );
