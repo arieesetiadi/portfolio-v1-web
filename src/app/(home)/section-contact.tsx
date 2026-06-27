@@ -20,135 +20,121 @@ export default function SectionContact({ personal }: { personal: Personal }) {
 
         <div className="row">
           <AnimateOnScroll className="col-sm-12 col-md-4">
-            <table className="table-borderless table">
-              <tbody>
+            <address className="mb-0" style={{ fontStyle: "normal" }}>
+              <ul className="list-unstyled d-flex flex-column gap-3 mb-0">
                 {personal.email && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/envelope.svg"
-                        alt="Email icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`mailto:${personal.email}`}
-                        target="_blank">
-                        {personal.email}
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/envelope.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`mailto:${personal.email}`}>
+                      {personal.email}
+                    </a>
+                  </li>
                 )}
 
                 {personal.whatsapp && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/whatsapp.svg"
-                        alt="Whatsapp icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`https://wa.me/${personal.whatsapp}`}
-                        target="_blank">
-                        {personal.whatsapp}
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/whatsapp.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`https://wa.me/${personal.whatsapp}`}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {personal.whatsapp}
+                    </a>
+                  </li>
                 )}
 
                 {personal.instagram && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/instagram.svg"
-                        alt="Instagram icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`https://www.instagram.com/${personal.instagram}`}
-                        target="_blank">
-                        {personal.instagram}
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/instagram.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`https://www.instagram.com/${personal.instagram}`}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {personal.instagram}
+                    </a>
+                  </li>
                 )}
 
                 {personal.github && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/github-original.svg"
-                        alt="Github icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`https://github.com/${personal.github}`}
-                        target="blank">
-                        {personal.github}
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/github-original.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`https://github.com/${personal.github}`}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {personal.github}
+                    </a>
+                  </li>
                 )}
 
                 {personal.codewars && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/code.svg"
-                        alt="Codewars icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`https://www.codewars.com/users/${personal.codewars}`}
-                        target="blank">
-                        Codewars ({personal.codewars})
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/code.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`https://www.codewars.com/users/${personal.codewars}`}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Codewars ({personal.codewars})
+                    </a>
+                  </li>
                 )}
 
                 {personal.linkedin && (
-                  <tr>
-                    <td>
-                      <img
-                        width="18"
-                        height="18"
-                        src="/images/icons/linkedin-original.svg"
-                        alt="Linkedin icon"
-                      />
-                    </td>
-                    <td>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={`https://www.linkedin.com/in/${personal.linkedin}`}
-                        target="blank">
-                        {personal.linkedin}
-                      </a>
-                    </td>
-                  </tr>
+                  <li className="d-flex align-items-center gap-3">
+                    <img
+                      width="18"
+                      height="18"
+                      src="/images/icons/linkedin-original.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={`https://www.linkedin.com/in/${personal.linkedin}`}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {personal.linkedin}
+                    </a>
+                  </li>
                 )}
-              </tbody>
-            </table>
+              </ul>
+            </address>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={0.15} className="col-sm-12 col-md-8">
