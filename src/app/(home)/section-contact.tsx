@@ -3,6 +3,7 @@
 import { Personal } from "@/lib/types";
 import { ContactForm } from "@/components/contact-form";
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
+import ContactMapView from "@/components/contact-mapview";
 
 export default function SectionContact({ personal }: { personal: Personal }) {
   return (
@@ -152,6 +153,16 @@ export default function SectionContact({ personal }: { personal: Personal }) {
 
           <AnimateOnScroll delay={0.15} className="col-sm-12 col-md-8">
             <ContactForm />
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={0.2} className="col-12">
+            <div style={{ padding: "50px 0" }}>
+              <hr style={{ borderColor: "rgba(0, 0, 0, 0.05)" }} />
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={0.3} className="col-12">
+            <ContactMapView />
           </AnimateOnScroll>
         </div>
       </div>
