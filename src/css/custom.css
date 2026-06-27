@@ -70,7 +70,7 @@ img.service-image {
     animation: modalFadeOut 0.35s ease-in;
 }
 
-.modal-content h2{
+.modal-content h2 {
     margin: 0 0 20px 0;
 }
 
@@ -226,6 +226,38 @@ img.service-image {
         opacity: 0;
         transform: scale(0.7);
     }
+}
+
+/* Sidebar active nav indicator */
+header.desktop-header-1.light .vertical-menu li a::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    background-color: #23232f;
+    margin-left: 0;
+    vertical-align: middle;
+    transition: width 0.3s ease, margin-left 0.3s ease;
+}
+
+header.desktop-header-1.light .vertical-menu li.active a::after {
+    width: 30px;
+    margin-left: 12px;
+}
+
+header.desktop-header-1.light .vertical-menu li:not(.active):hover a::after {
+    width: 20px;
+    margin-left: 12px;
+}
+
+header.desktop-header-1.light .vertical-menu li.active:hover a::after {
+    width: 38px;
+}
+
+/* Override yellow active/hover color — keep text dark */
+header.desktop-header-1.light .vertical-menu li.active a,
+header.desktop-header-1.light .vertical-menu li.active a:hover {
+    color: #23232f;
 }
 
 /* Responsive */

@@ -7,7 +7,7 @@ import { ToastContainer, Slide } from "react-toastify";
 
 import "../css/dist/bootstrap.min.css";
 import "../css/dist/style.min.css";
-import "../css/custom.min.css";
+import "../css/custom.css";
 import "../css/projects.min.css";
 
 import { QueryProvider } from "@/providers/query-provider";
