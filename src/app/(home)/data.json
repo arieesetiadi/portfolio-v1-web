@@ -116,7 +116,7 @@
             ],
             "website": null,
             "github": null,
-            "demo": null,
+            "demo": "https://kantanya-tour-production.up.railway.app",
             "thumbnail": "/images/projects/kantanya-1.webp",
             "gallery": [
                 "/images/projects/kantanya-1.webp",
@@ -162,7 +162,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/wedding-invitation-web.git",
-            "demo": "https://wedding-invitation-web-production-b24c.up.railway.app/?guest=Sari",
+            "demo": "https://wedding-invitation-web-1-production.up.railway.app/?guest=Sari",
             "thumbnail": "/images/projects/wedding-billy-1.webp",
             "gallery": [
                 "/images/projects/wedding-billy-1.webp",
@@ -183,7 +183,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/wedding-invitation-web-2.git",
-            "demo": null,
+            "demo": "https://wedding-invitation-web-2-production.up.railway.app/?guest=Sari",
             "thumbnail": "/images/projects/wedding-vicky-karina-1.webp",
             "gallery": [
                 "/images/projects/wedding-vicky-karina-1.webp",
