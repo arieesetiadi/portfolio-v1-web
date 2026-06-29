@@ -1,10 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import KeenSlider from "@/components/keen-slider";
 import Modal from "@/components/modal";
+import DemoLink from "@/components/demo-link";
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Project } from "@/lib/types";
-import { useState } from "react";
 
 export default function SectionProjects({ projects }: { projects: Project[] }) {
   const [selectedModal, setSelectedModal] = useState<null | number>(null);
@@ -84,23 +85,14 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
                     {project.github && (
                       <li>
                         <strong>Github</strong>:{" "}
-                        <a href={project.github}>
+                        <a target="_blank" href={project.github}>
                           <span style={{ textDecoration: "underline" }}>
                             Github URL
                           </span>
                         </a>
                       </li>
                     )}
-                    {project.demo && (
-                      <li>
-                        <strong>Demo</strong>:{" "}
-                        <a href={project.demo}>
-                          <span style={{ textDecoration: "underline" }}>
-                            Demo URL
-                          </span>
-                        </a>
-                      </li>
-                    )}
+                    {project.demo && <DemoLink href={project.demo} />}
                   </ul>
                 </div>
               </Modal>

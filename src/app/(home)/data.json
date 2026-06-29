@@ -114,7 +114,7 @@
                 "Bootstrap",
                 "MySQL"
             ],
-            "website": "http://kantanyabalitour.com",
+            "website": null,
             "github": null,
             "demo": null,
             "thumbnail": "/images/projects/kantanya-1.webp",
@@ -162,7 +162,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/wedding-invitation-web.git",
-            "demo": "https://wedding-1.ariee.id/?guest=Sari",
+            "demo": "https://wedding-invitation-web-production-b24c.up.railway.app/?guest=Sari",
             "thumbnail": "/images/projects/wedding-billy-1.webp",
             "gallery": [
                 "/images/projects/wedding-billy-1.webp",
@@ -183,7 +183,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/wedding-invitation-web-2.git",
-            "demo": "https://wedding-2.ariee.id/?guest=Vina",
+            "demo": null,
             "thumbnail": "/images/projects/wedding-vicky-karina-1.webp",
             "gallery": [
                 "/images/projects/wedding-vicky-karina-1.webp",
@@ -205,7 +205,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/damamaya-app",
-            "demo": "https://damamaya.ariee.id",
+            "demo": null,
             "thumbnail": "/images/projects/damamaya-1.webp",
             "gallery": [
                 "/images/projects/damamaya-1.webp",
@@ -223,7 +223,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/demo-company-profile",
-            "demo": "https://room-scheduler.ariee.id",
+            "demo": null,
             "thumbnail": "/images/projects/kominfo-scheduler-1.webp",
             "gallery": [
                 "/images/projects/kominfo-scheduler-1.webp",
@@ -241,10 +241,10 @@
                 "Bootstrap",
                 "MySQL"
             ],
-            "website": "https://demo-company.ariee.id/",
+            "website": null,
             "github": "https://github.com/arieesetiadi/demo-company-profile",
             "demo": null,
-            "adminPanel": "https://demo-company.ariee.id/admin",
+            "adminPanel": null,
             "thumbnail": "/images/projects/demo-compro-1.webp",
             "gallery": [
                 "/images/projects/demo-compro-1.webp",
@@ -269,7 +269,7 @@
             ],
             "website": null,
             "github": "https://github.com/arieesetiadi/vtour-180030179",
-            "demo": "https://vtour-1.ariee.id",
+            "demo": null,
             "thumbnail": "/images/projects/vtour-kerambitan-1.webp",
             "gallery": [
                 "/images/projects/vtour-kerambitan-1.webp",
