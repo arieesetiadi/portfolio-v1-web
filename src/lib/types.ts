@@ -44,6 +44,6 @@ export type Project = {
   github: string | null;
   demo: string | null;
   thumbnail: string;
-  adminPanel?: string;
+  adminPanel?: string | null;
   gallery: string[];
 };
